@@ -12,6 +12,7 @@ public class App {
 
         System.out.println(bean==bean1);
 
+
         Cat bean3 =
                 (Cat) applicationContext.getBean("cat");
         Cat bean4 =
